@@ -1,0 +1,11 @@
+Game:
+  World: 'world'
+  Position:
+    X:
+    Y:
+    Z:
+  Item:
+    Skull: true
+    Skull_Name: 'Kodaizera'
+    # if skull is false.
+    Material:

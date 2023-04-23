@@ -1,0 +1,17 @@
+name: Z_AimLab
+version: '${project.version}'
+main: com.zennyel.Z_AimLab
+api-version: 1.19
+authors: [Zennyel]
+description: AimLab plugin!
+permissions:
+  aimlab.use:
+    description: Allow that player use aimlab.
+    default: true
+  aimlab.admin:
+    description: Allow administrator permissions
+    default: op
+commands:
+  aimlab:
+    description: the main command for aimlab plugin.
+    permission: aimlab.use
